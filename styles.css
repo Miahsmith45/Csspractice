@@ -7,7 +7,7 @@ section.top {
 
 .background-colory {
     background: #00736A;
-    height: 100%;
+    height: 79%;
     width: 100%;
     top: 0;
     left: 0;
@@ -105,7 +105,7 @@ p {
     background-image: url("https://retiresuccessfully.co.za/wp-content/themes/yootheme/cache/testyourself-92d61a2b.jpeg");
 }
 
-main.main-container {
+main.Main-container {
     width: 700px;
     margin: auto;
 }
