@@ -1,0 +1,111 @@
+section.top {
+    text-align: center;
+    padding: 20px;
+    color: black;
+    position: relative;
+}
+
+.background-colory {
+    background: #00736A;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+html,
+body {
+    margin: 0px;
+    height: 100px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+img {
+    width: 180px;
+}
+
+.info-container {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.info {
+    min-height: 300px;
+    max-width: 180px;
+    position: relative;
+    top: 32px;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.info.one {
+    background: #ED77AD;
+}
+
+h5 {
+    font-size: 17px;
+    color: #232323;
+    margin-top: 85px;
+}
+
+p {
+    font-size: 10px;
+}
+
+.info.two {
+    background: #edb668;
+}
+
+.info.three {
+    background: #6995ED;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background: white;
+    border-radius: 88px;
+    position: absolute;
+    top: -88px;
+    left: 16px;
+}
+
+.circle.one {
+    background-size: 143px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfnKhLXugo0DG57DXQ2NXuZoxxqXjyKoPZG0uyyofz61IKvgjW");
+}
+
+.circle.two {
+    background-size: 143px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://www.jing.fm/clipimg/detail/48-485672_charity-clipart-group-team-work-clipart-hands.png");
+}
+
+.circle.three {
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSH7iQQiP68ByPTlR_aZZiHM06LMXllHDDyJeJVHcpX0JkWyyTS");
+}
+
+main.main-container {
+    width: 700px;
+    margin: auto;
+}
